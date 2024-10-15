@@ -20,22 +20,22 @@ Html과 Css를 사용해 이러한 캐릭터 목록을 반복적으로 배치하
   
 ### 프로젝트 진행 과정  
 1. **HTML 구조 설정**
-  - '<div class="container">'와같은 div 요소로 웹 페이지 구조 구분.
-  - 각 캐릭터를 '<div class="hero">'로 정의하여 반복적으로 배치.
-  - 로고 이미지 추가를 위해 '<div class="logo">'에 '<img>' 태그를 사용.
+  - `<div class="container">`와같은 div 요소로 웹 페이지 구조 구분.
+  - 각 캐릭터를 `<div class="hero">`로 정의하여 반복적으로 배치.
+  - 로고 이미지 추가를 위해 `<div class="logo">`에 `<img>` 태그를 사용.
 
 2. **리셋 CSS 적용**
-  - '<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">' 사용으로 브라우저 기본 스타일을 리셋하여 일관된 스타일을 유지.
+  - `<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css">` 사용으로 브라우저 기본 스타일을 리셋하여 일관된 스타일을 유지.
 
 3. **외부 및 내부 CSS 연결**
-  - '<link rel="stylesheet" href="./main.css">'를 통해 프로젝트 메인 CSS 파일 불러옴.
+  - `<link rel="stylesheet" href="./main.css">`를 통해 프로젝트 메인 CSS 파일 불러옴.
   - CSS 파일로 스타일을 정의하여 HTML 요소에 스타일 적용함.
 
 4. **캐릭터 반복 요소 생성**
-  - '<div class="hero"><div class="image"></div></div>'와같이 각 캐릭터 프로필 생성을 위해 동일한 구조의 요소를 반복적으로 사용으로 캐릭터 목록을 그리드 형태로 배치.
+  - `<div class="hero"><div class="image"></div></div>`와같이 각 캐릭터 프로필 생성을 위해 동일한 구조의 요소를 반복적으로 사용으로 캐릭터 목록을 그리드 형태로 배치.
 
 5. **반응형 설정**
-  - '<meta name="viewport" content="width=device-width, initial-scale=1.0">'으로 다양한 기기에서 페이지가 적절히 보이도록 반응형 뷰포트 설정체크.
+  - `<meta name="viewport" content="width=device-width, initial-scale=1.0">`으로 다양한 기기에서 페이지가 적절히 보이도록 반응형 뷰포트 설정체크.
 
 <p align="center">
   <img width="460" height="300" src="./images/overwatch-heros-main page.png">
